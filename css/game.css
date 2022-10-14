@@ -70,3 +70,13 @@ a {
 #morreu {
     position: absolute;
 }
+
+#teclas {
+    width: 20rem;
+    height: 8rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 15rem;
+    border-radius: 10px;
+    border: 1px solid #009eb3;
+}

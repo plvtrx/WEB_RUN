@@ -22,7 +22,6 @@ function game(){
     colisao();
     ponto()
     anima=requestAnimationFrame(game)
-    
 }
 
 function colisao(){

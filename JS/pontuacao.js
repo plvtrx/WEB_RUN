@@ -1,3 +1,6 @@
+const keyboard = document.getElementById('teclas');
+keyboard.setAttribute('src','../img/keyboard.png');
+
 var point = 0
 let pXc = 350
 let pYc =  15
@@ -27,7 +30,7 @@ function ponto() {
             window.addEventListener('keypress', (e)=>{
                 let enter = e.keyCode
                 
-                if (enter == 13 && pXc == pXc && pYc == 15) {
+                if (enter == 32 && pXc == pXc && pYc == 15) {
                     ent = true
                     if(ent == true)
                     pXc = pXc
@@ -44,7 +47,7 @@ function ponto() {
             window.addEventListener('keypress', (e)=>{
                 let enter = e.keyCode
                 
-                if (enter == 13 && pXc == pXc && pYc == pYc2) {
+                if (enter == 32 && pXc == pXc && pYc == pYc2) {
                     ent = true
                     if(ent == true)
                     pXc = pXc
@@ -61,7 +64,7 @@ function ponto() {
                 window.addEventListener('keypress', (e)=>{
                     let enter = e.keyCode
                     
-                    if (enter == 13 && pXc == pXc && pYc == pYc3) {
+                    if (enter == 32 && pXc == pXc && pYc == pYc3) {
                         ent = true
                         if(ent == true)
                         pXc = 0
@@ -78,7 +81,7 @@ function ponto() {
                     window.addEventListener('keypress', (e)=>{
                         let enter = e.keyCode
                         
-                        if (enter == 13 && pXc == 0 && pYc == 0) {
+                        if (enter == 32 && pXc == 0 && pYc == 0) {
                             ent = true
                             if(ent == true)
                             pXc = 300
@@ -95,7 +98,7 @@ function ponto() {
                         window.addEventListener('keypress', (e)=>{
                             let enter = e.keyCode
                             
-                            if (enter == 13 && pXc == 300 && pYc == 10) {
+                            if (enter == 32 && pXc == 300 && pYc == 10) {
                                 ent = true
                                 if(ent == true)
                                 pXc = 600
@@ -112,7 +115,7 @@ function ponto() {
                             window.addEventListener('keypress', (e)=>{
                                 let enter = e.keyCode
                                 
-                                if (enter == 13 && pXc == 600 && pYc == 605) {
+                                if (enter == 32 && pXc == 600 && pYc == 605) {
                                     ent = true
                                     if(ent == true)
                                     pXc = 100
@@ -129,7 +132,7 @@ function ponto() {
                                 window.addEventListener('keypress', (e)=>{
                                     let enter = e.keyCode
                                     
-                                    if (enter == 13 && pXc == 100 && pYc == 300) {
+                                    if (enter == 32 && pXc == 100 && pYc == 300) {
                                         ent = true
                                         if(ent == true)
                                         pXc = 200
