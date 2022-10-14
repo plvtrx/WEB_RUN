@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: url(../img/backgroundGame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.medio, .dificil, .voltar {
+    border: none;
+    background: none;
+
+    border: 1px solid #009eb3;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    height: 3rem;
+    width: 6.5rem;
+    transition: 0.5s ease;
+    color: #009eb3;
+}
+
+.medio:hover, .dificil:hover,
+.voltar:hover {
+    border: 1px solid #00327e;
+    background: #00327e;
+    color: white;
+}
+
+#medio,#dificil,
+#voltar {
+    position: absolute;
+    bottom: 25rem;
+    right: 10rem;
+}
+
+#dificil {
+    bottom: 20rem;
+}
+
+#voltar {
+    bottom: 15rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contador {
+    color: white;
+    position: absolute;
+    left: 7.4rem;
+    bottom: 25rem;
+}
+
+#morreu {
+    position: absolute;
+}

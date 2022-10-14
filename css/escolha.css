@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: url(../img/backgroundSegundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 47.5rem;
+    overflow: hidden;
+}
+
+main {
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    width: 30rem;
+    height: 30rem;
+    margin:10rem auto;
+    border-radius: 20px;
+}
+
+.escolha {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.facil, .medio,
+.dificil {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1rem;
+}
+
+#facil, #medio
+,#dificil {
+    border: none;
+    background: none;
+
+    border: 1px solid #009eb3;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    height: 3rem;
+    width: 6.5rem;
+    transition: 0.5s ease;
+    color: #009eb3;
+}
+
+a {
+    text-decoration: none;
+}
+
+#facil:hover,
+#medio:hover,
+#dificil:hover{
+    border: 1px solid #00327e;
+    background: #00327e;
+    color: white;
+}
+
+.fim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.des {
+    color: #00327e;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 2rem;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
