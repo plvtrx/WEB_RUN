@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+body{
+    background-image: url(../img/backgroundGame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.ganhou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#win{
+    width: 750px;
+    height: 785px;
+    bottom: 0;
+    position: absolute;
+}
+
+H1{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 50px;
+    color: rgb(255, 94, 0);
+}
+
+h3{
+    position: absolute;
+    margin-top: 700px;
+    font-size: 40px;
+    color: rgb(255, 94, 0);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+h4{
+    position: absolute;
+    margin-top: 1400px;
+    font-size: 30px;
+    color: rgb(255, 94, 0);
+}
