@@ -142,6 +142,57 @@ function ponto() {
                                 })
                             }
 
+                            if (pX < 200 + 50 && 
+                                pX + 70 > 200 &&
+                                pY < 250 + 50 &&
+                                pY + 70 > 250) {
+                                    window.addEventListener('keypress', (e)=>{
+                                        let enter = e.keyCode
+                                        
+                                        if (enter == 32 && pXc == 200 && pYc == 250) {
+                                            ent = true
+                                            if(ent == true)
+                                            pXc = 300
+                                            pYc = 450
+                                            point += 1
+                                        }
+                                    })
+                                }
+
+                                if (pX < 300 + 50 && 
+                                    pX + 70 > 300 &&
+                                    pY < 450 + 50 &&
+                                    pY + 70 > 450) {
+                                        window.addEventListener('keypress', (e)=>{
+                                            let enter = e.keyCode
+                                            
+                                            if (enter == 32 && pXc == 300 && pYc == 450) {
+                                                ent = true
+                                                if(ent == true)
+                                                pXc = 111
+                                                pYc = 427
+                                                point += 1
+                                            }
+                                        })
+                                    }
+
+                                if (pX < 111 + 50 && 
+                                    pX + 70 > 111 &&
+                                    pY < 427 + 50 &&
+                                    pY + 70 > 427) {
+                                        window.addEventListener('keypress', (e)=>{
+                                            let enter = e.keyCode
+                                            
+                                            if (enter == 32 && pXc == 111 && pYc == 427) {
+                                                ent = true
+                                                if(ent == true)
+                                                pXc = 222
+                                                pYc = 333
+                                                point += 1
+                                            }
+                                        })
+                                    }    
+
                             if(point == 10) {
                                 window.location.href = './html/winner.html'
                             }
