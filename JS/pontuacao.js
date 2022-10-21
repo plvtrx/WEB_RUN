@@ -141,5 +141,9 @@ function ponto() {
                                     }
                                 })
                             }
+
+                            if(point == 10) {
+                                window.location.href = './html/winner.html'
+                            }
 }
 
