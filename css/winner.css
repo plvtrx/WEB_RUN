@@ -66,5 +66,6 @@ h4{
 }
 
 strong {
-    padding: 8rem;
+    font-weight: bold;
+    font-size: 30px;
 }
